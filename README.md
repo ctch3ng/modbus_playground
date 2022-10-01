@@ -19,3 +19,8 @@ Note: For Windows user, check your COM port settings under Device Manager. For L
 
 + urm14_read_info.py --  For reading registers' values from URM14 - Industrial Ultrasonic Distance Sensor.
 + urm14_dist_read_loop.py -- For reading the distance register (100 times) from DFRobot URM14 - Industrial Ultrasonic Distance Sensor.
+
+## Further Readings
++ URM14 Wiki [Link](https://wiki.dfrobot.com/URM14_RS485_Precision_Ultrasonic_Sensor_200KHz_SKU_SEN0358)
++ Modbus RTU Relay Wiki [Link](https://www.waveshare.com/wiki/Modbus_RTU_Relay)
++ Modbus - Protocol Specification and Serial Line Protocol and Implementation Guide [Link](https://www.modbus.org/specs.php)
