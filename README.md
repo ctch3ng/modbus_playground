@@ -1,4 +1,4 @@
-# ModBus_Playground
+# ModBus Playground
 Control Modbus-RTU serial devices with Python minimalmodbus library
 
 ## Prerequisites
