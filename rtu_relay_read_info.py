@@ -27,11 +27,10 @@ try:
 except IOError:
     print("Failed to read Device Address Command") 
     
-rtu_relay = minimalmodbus.Instrument('COM6', 1, debug=True)  # port name, slave address (in decimal)
-
+rtu_relay.debug = True
 try:
-    print("Software Version:", rtu_relay.read_registers(0x8000,1,3)) #Read States of Relays 
+    print("Software Version:", rtu_relay.read_registers(0x8000,1,3)) #Read Software Version
 except IOError:
-    print("Software Version can only be read in debug mode as the reply is not in standard format")     
-    
+    print("Software Version can only be read in debug mode as the reply is not in standard format")  
+
 rtu_relay.serial.close()
