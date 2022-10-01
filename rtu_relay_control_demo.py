@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 #!/usr/bin/env python3
 import minimalmodbus
 import time
@@ -49,16 +43,3 @@ try:
 except IOError:
     print("Failed to read States of Relays")
 rtu_relay.serial.close()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
