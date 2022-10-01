@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[110]:
-
-
 #!/usr/bin/env python3
 import minimalmodbus
 import time
@@ -91,10 +85,6 @@ except IOError:
     print("Failed to read Distance register")
 
 urm14.serial.close()
-
-
-# In[ ]:
-
 
 
 
