@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 #!/usr/bin/env python3
 import minimalmodbus
 import time
@@ -43,10 +37,3 @@ while i!=100:
     i+=1
    
 urm14.serial.close()
-
-
-# In[ ]:
-
-
-
-
