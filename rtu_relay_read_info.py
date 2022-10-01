@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[28]:
-
-
 #!/usr/bin/env python3
 import minimalmodbus
 
@@ -41,22 +35,3 @@ except IOError:
     print("Software Version can only be read in debug mode as the reply is not in standard format")     
     
 rtu_relay.serial.close()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
