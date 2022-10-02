@@ -20,7 +20,7 @@ rtu_relay.clear_buffers_before_each_transaction = True
 
 relay_status = [1,0,0,0,0,0,0,0]
 
-#Turn on the relay one by one
+#Turn on the relays one by one
 for i in range(len(relay_status)):
     relay_status.append(relay_status.pop(0)) #shift relay_status by 1 bit
     try:
@@ -33,7 +33,7 @@ for i in range(len(relay_status)):
     except IOError:
         print("Failed to read States of Relays")
 
-#Turn off all the relay 
+#Turn off all the relays 
 try:
     print("W States of Relays:",[0,0,0,0,0,0,0,0], rtu_relay.write_bits(0,[0,0,0,0,0,0,0,0])) #Write States of Relays 
 except IOError:
