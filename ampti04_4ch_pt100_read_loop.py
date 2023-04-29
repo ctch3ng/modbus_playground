@@ -25,25 +25,25 @@ while i!=100:
     try:
         print("CH1:", ampti04.read_register(0,1,4)/10," C") #Read PT100 on channel 1
     except IOError:
-        pass
+        print("Failed to read CH1") 
     time.sleep(sleep_time) 
     
     try:
         print("CH2:", ampti04.read_register(1,1,4)/10," C") #Read PT100 on channel 2
     except IOError:
-        pass
+        print("Failed to read CH2") 
     time.sleep(sleep_time) 
     
     try:
         print("CH3:", ampti04.read_register(2,1,4)/10," C") #Read PT100 on channel 3
     except IOError:
-        pass
+        print("Failed to read CH3") 
     time.sleep(sleep_time) 
     
     try:
         print("CH4:", ampti04.read_register(3,1,4)/10," C") #Read PT100 on channel 4
     except IOError:
-        pass
+        print("Failed to read CH4") 
     time.sleep(sleep_time) 
 
     i+=1
