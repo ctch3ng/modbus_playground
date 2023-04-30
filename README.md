@@ -15,7 +15,7 @@ Control Modbus-RTU serial devices with Python minimalmodbus library
 Note: For Windows user, check your COM port settings under Device Manager. For Linux user, check your COM port settings under /dev/
 
 ## 29 Apr 2023 Updates
-+ ampti04_4ch_pt100_read_loop.py -- For reading the temperature readings (100 times) from Eletechsup AMPTI04 - 4CH RS485 PT100 Temperature Collector.
++ ampti04_4ch_pt100_read_loop.py -- For reading the temperature registers (100 times) from Eletechsup AMPTI04 - 4CH RS485 PT100 Temperature Collector.
 
 ## 02 Oct 2022 Updates
 + rtu_relay_read_info.py -- For reading registers' values from Waveshare Industrial Modbus RTU 8-ch Relay Module.
