@@ -7,12 +7,16 @@ Control Modbus-RTU serial devices with Python minimalmodbus library
 + Waveshare Industrial Modbus RTU 8-ch Relay Module [Link](https://www.waveshare.com/modbus-rtu-relay.htm)
 + DFRobot URM14 - Industrial Ultrasonic Distance Sensor [Link](https://www.dfrobot.com/product-2173.html)
 + Eletechsup AMPTI04 - 4CH RS485 PT100 Temperature Collector
++ Eletechsup PTA8E16 - 16CH RS485 PT100 Temperature Collector
 
 ### Software 
 + Python>=3.9 - via Anaconda [Link](https://www.anaconda.com/products/distribution)
 + MinimalModbus [Link](https://minimalmodbus.readthedocs.io/en/stable/index.html)
 
 Note: For Windows user, check your COM port settings under Device Manager. For Linux user, check your COM port settings under /dev/
+
+## 08 May 2023 Updates
++ pta8e16_16ch_pt100_read_loop.py -- For reading the temperature registers (100 times) from Eletechsup PTA8E16 - 16CH RS485 PT100 Temperature Collector.
 
 ## 29 Apr 2023 Updates
 + ampti04_4ch_pt100_read_loop.py -- For reading the temperature registers (100 times) from Eletechsup AMPTI04 - 4CH RS485 PT100 Temperature Collector.
