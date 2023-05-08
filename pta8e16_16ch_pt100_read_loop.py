@@ -24,7 +24,7 @@ while i!=100:
     j=0;
     while j!=16:
         try:
-            print("CH",j+1,":", pta8e16.read_register(j,1,3)," C") #Read PT100 on channel j, memory address j, 1 decimal place, control code 3
+            print("CH",j+1,":", pta8e16.read_register(j,1,3)," C") #Read PT100 on channel j+1, memory address j, 1 decimal place, control code 3
         except IOError:
             print("Failed to read CH",j+1) 
         time.sleep(sleep_time) 
