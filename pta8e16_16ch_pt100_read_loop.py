@@ -28,8 +28,8 @@ while i!=100:
         except IOError:
             print("Failed to read CH",j+1) 
         time.sleep(sleep_time) 
-        print("==========================")
         j+=1
+    print("==========================")
     i+=1
    
 pta8e16.serial.close()
